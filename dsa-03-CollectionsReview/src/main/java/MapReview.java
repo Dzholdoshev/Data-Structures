@@ -8,7 +8,7 @@ public class MapReview {
         Map<Integer,String> studentsMap=new HashMap<>();
         studentsMap.put(1, "Jack");
         studentsMap.put(2, "Julia");
-        String st= "JJavvaDDevelloopperr";
+        String st= "jjavvaDDevelloopperru";
 
         System.out.println(findFirstNonRepeating(st));
     }
