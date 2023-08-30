@@ -6,7 +6,7 @@ public class AnotherOptimal {
         int target=9;
         int [] ind=new int[2];
 
-         //sort method here   nlogn
+        //sort method here   nlogn
 
         for (int i = 0, j=1; i < nums.length; i++,j++) {   // O(n)
             if (nums[i]>target){continue;}                 // constant

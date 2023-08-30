@@ -16,7 +16,6 @@ public class Assignment1_TwoSumOptimal {
             int potentialMatch = targetValue - array[i];
             if (map.containsKey(potentialMatch)) return new int[]{i, map.get(potentialMatch)};
             else map.put(array[i], i);
-
         }
         return new int[]{};
     }
